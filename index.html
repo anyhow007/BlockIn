@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+<meta property="og:title" content="Block In - Retro Arcade Action">
+<meta property="og:description" content="Can you beat the high score? A fast-paced block-stacking challenge.">
+<meta property="og:image" content="preview-image.png"> <meta property="og:url" content="https://your-hosting-url.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Block In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <div class="controls">
+        <button id="leftBtn">←</button>
+        <button id="rotateBtn">↻</button>
+        <button id="downBtn">↓</button>
+        <button id="rightBtn">→</button>
+        <button id="pauseBtn">P</button>
+    </div>
+
+    <div id="menuOverlay" class="overlay">
+        <h2 id="menuTitle">PAUSED</h2>
+        <button id="restartBtn">RESTART</button>
+        <button id="resumeBtn">RESUME</button>
+    </div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
